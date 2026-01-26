@@ -3,7 +3,6 @@ import cv2
 
 # Read image in grayscale
 img = cv2.imread("image.png", cv2.IMREAD_GRAYSCALE)
-#pull here
 h, w = img.shape
 
 # Scaling factors
