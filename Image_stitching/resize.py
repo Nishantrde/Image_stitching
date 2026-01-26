@@ -6,8 +6,8 @@ img = cv2.imread("image.png", cv2.IMREAD_GRAYSCALE)
 h, w = img.shape
 
 # Scaling factors
-sx = 1/2.0   # scale width
-sy = 1/2.0   # scale height
+sx = 2.0   # scale width
+sy = 2.0   # scale height
 
 # New image size
 new_h = int(h * sy)
