@@ -3,5 +3,5 @@ import cv2
 import glob
 import imutils
 
-
+image_path = glob.glob()
 
