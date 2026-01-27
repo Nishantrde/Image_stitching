@@ -20,7 +20,7 @@ imageSticher = cv2.Stitcher_create()
 error, stitched_img = imageSticher.stitch(images)
 
 if not error:
-        cv2.imwrite("stitched_images.png", stitched_img)
+        cv2.imwrite("./stitched_images.png", stitched_img)
         cv2.imshow("stitched images", stitched_img)
         cv2.waitKey(0)
 
