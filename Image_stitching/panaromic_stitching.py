@@ -35,7 +35,7 @@ if not error:
 
         if len(contours) == 0:
             print("No contours found in threshold image; saving original stitch.")
-            cv2.imwrite("stitchedOP.png", stitched_img)
+            cv2.imwrite("./stitchedOP.png", stitched_img)
             cv2.imshow("stitched output", stitched_img)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
